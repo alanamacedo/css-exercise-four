@@ -52,8 +52,8 @@ body {
 
 @media (min-width: 575px) {
   .preview{
-    width: 50%;
-    margin-bottom: 20px;
+    width: 48%;
+    margin: 1%;
   }
   .container{
     width:50%;
