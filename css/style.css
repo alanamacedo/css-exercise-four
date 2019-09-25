@@ -10,9 +10,15 @@ body {
 .container {
   margin: 20px auto;
   position: relative;
-  float: left;
+
   width:  100%;
-  height: 100px;
+
+}
+.emphasis {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  padding: 10%
 }
 .preview {
   margin: 0 0 5% 0;
@@ -38,10 +44,19 @@ body {
     background-image: url("../images/rome.jpg");
     background-size: cover;
 }
-div {
-  background-color: #fff;
-  float: left;
-  margin: 10% 0;
-  width: 100%;
+
+/* default styles */
+
+
+@media (min-width: 575px) {
+  /* overrides default styles */
+}
+
+@media (min-width: 991px) {
+  /* overrides any mobile styles */
+}
+
+@media (min-width: 1199px) {
+    /* overrides any tablet styles */
 }
 # css-exercise-four
