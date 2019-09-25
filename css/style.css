@@ -20,7 +20,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   font-family: DM Sans;
-  letter-spacing: 3px
+  letter-spacing: 3px;
   font-size: 14px;
   padding: 20px
 }
@@ -29,6 +29,7 @@ body {
   padding: 8% 0% 50% 0;
   width: 100%;
   font-size: 2.5em;
+  float: left;
 
 }
 .baku {
@@ -49,18 +50,25 @@ body {
     background-size: cover;
 }
 
-/* default styles */
-
-
 @media (min-width: 575px) {
-  /* overrides default styles */
+  .preview{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .container{
+    width:50%;
+  }
 }
 
 @media (min-width: 991px) {
-  /* overrides any mobile styles */
+  .preview{
+    width: 25%;
+  }
 }
 
 @media (min-width: 1199px) {
-    /* overrides any tablet styles */
+  .preview{
+    width: 25%;
+  }
 }
 # css-exercise-four
