@@ -1,4 +1,47 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 16px;
 }
+
+.container {
+  margin: 20px auto;
+  position: relative;
+  float: left;
+  width:  100%;
+  height: 100px;
+}
+.preview {
+  margin: 0 0 5% 0;
+  padding: 8% 0% 50% 0;
+  width: 100%;
+  font-size: 2.5em;
+
+}
+.baku {
+    background-image: url("../images/baku.jpg");
+    background-size: cover;
+}
+.london{
+    background-image: url("../images/london.png");
+    background-size: cover;
+
+}
+.madrid{
+    background-image: url("../images/madrid.jpg");
+    background-size: cover;
+}
+.rome{
+    background-image: url("../images/rome.jpg");
+    background-size: cover;
+}
+div {
+  background-color: #fff;
+  float: left;
+  margin: 10% 0;
+  width: 100%;
+}
+# css-exercise-four
