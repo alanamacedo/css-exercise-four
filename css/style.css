@@ -26,7 +26,7 @@ body {
 }
 .preview {
   margin: 0 0 5% 0;
-  padding: 8% 0% 50% 0;
+  padding: 8% 0 20% 3%;
   width: 100%;
   font-size: 2.5em;
   float: left;
@@ -39,7 +39,6 @@ body {
 .london{
     background-image: url("../images/london.png");
     background-size: cover;
-
 }
 .madrid{
     background-image: url("../images/madrid.jpg");
@@ -56,19 +55,21 @@ body {
     margin: 1%;
   }
   .container{
-    width:50%;
+    width: 60%;
   }
 }
 
 @media (min-width: 991px) {
   .preview{
-    width: 25%;
+    width: 23%;
+    margin: 1%;
   }
 }
 
 @media (min-width: 1199px) {
   .preview{
-    width: 25%;
+    width: 23%;
+    margin: 1%;
   }
 }
 # css-exercise-four
