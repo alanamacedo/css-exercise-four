@@ -26,9 +26,9 @@ body {
 }
 .preview {
   margin: 0 0 5% 0;
-  padding: 8% 0 20% 3%;
+  padding: 3% 0 20% 3%;
   width: 100%;
-  font-size: 2.5em;
+  font-size: 24px;
   float: left;
 
 }
@@ -70,6 +70,6 @@ body {
   .preview{
     width: 23%;
     margin: 1%;
+    padding: 1% 0 10% 3%;
   }
 }
-# css-exercise-four
